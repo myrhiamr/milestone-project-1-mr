@@ -19,7 +19,7 @@ body {
 
 .header {
    margin-top: 20px;
-    border: 5px solid rgb(210, 14, 112); 
+  
 }
 
 .header-title {
@@ -91,14 +91,13 @@ img {
     height: 450px; 
     display: flex; 
     flex-wrap: wrap;
-    border: 10px solid limegreen;
+    
     perspective: 1000px;
 }
 
 .memory-card {
     width: 215px;
     height: 215px;
-    border: 5px solid rgb(210, 14, 112);
     transform: scale(1); /* reactive click */
     transform-style: preserve-3d;
     transition: transform .3s;
@@ -119,7 +118,7 @@ img {
     position: absolute;
     width: 100%; /* to keep them aligned on flip */
     height: 100%; /* to keep them aligned on flip */
-    border: 2px solid rgb(21, 8, 202);
+    border: 2px solid rgb(199, 172, 156);
     backface-visibility: hidden;
 }
 
