@@ -13,3 +13,19 @@ Final coding expectations:
 - Integerate a sound for when you flip the card
 - Integrate a sound when you choose correctly 
 
+Sources used:
+
+For flipping noise
+https://pixabay.com/sound-effects/search/flip/
+
+For faceup image/Templet design
+https://www.canva.com/design
+
+For flower images
+https://www.pinterest.com/
+
+
+For background
+https://www.freepik.com/free-vector/hand-drawn-painted-whitewash-background_133678691.htm#query=ivory%20background&position=24&from_view=keyword&track=ais&uuid=1d91cd7a-f2ad-4211-88c8-6e0d2eac6c84
+
+

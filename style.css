@@ -47,7 +47,7 @@ body {
     margin: 20px auto; 
   }
   
-  #restart {
+  #start {
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -70,7 +70,7 @@ body {
     height: 48px;
 }
 
-#restart:hover { 
+#start:hover { 
     color: #fff;
     background-color: #9e6f46;
     font-family: palation, serif;

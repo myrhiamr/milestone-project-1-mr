@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.memory-card');
-    const restartButton = document.querySelector('#restart');
+    const startButton = document.querySelector('#start');
     const timerDisplay = document.querySelector('#timer');
+ 
+  
 
     let hasFlippedCard = false;
     let lockBoard = false;
     let firstCard, secondCard;
     let timerInterval;
-    
-    
     let timeElapsed = 60; 
 
     // fliping of cards
@@ -113,7 +113,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
    
     cards.forEach(card => card.addEventListener('click', flipCard));
-    restartButton.addEventListener('click', restartGame);
+    startButton.addEventListener('click', restartGame);
 
     shuffleCards(); // Initial shuffle
 });
+
+
