@@ -5,29 +5,34 @@
 }
 
 body {
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
     display: flex;
-    flex-direction: column; /* header & memory game  stacked vert. */
-    justify-content: center; /* center content vert. */
-    align-items: center; /* center horizontally */
-    background: #ea7e43;
-}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 .header {
     margin-bottom: 85px;
-    border: 5px solid rgb(210, 14, 112); 
+    border: 5px solid rgb(210, 14, 112);
+    font-family: baskerville, serif; 
 }
 
 #timer {
     width: 100px;
     height: 50px;
-    background-color: #ffc0cb; /* Cute pink color */
-    color: #fff; /* White text */
-    font-size: 24px; /* Larger font size */
-    text-align: center; /* Center text horizontally */
-    line-height: 50px; /* Center text vertically */
-    border-radius: 10px; /* Rounded corners */
-    margin: 20px auto; /* Center the box horizontally */
+    background-color: #7d4310; 
+    color: #fff; 
+    font-size: 24px; 
+    text-align: center; 
+    line-height: 50px; 
+    border-radius: 10px; 
+    margin: 20px auto; 
   }
   
   #restart {
@@ -61,7 +66,7 @@ body {
   
 
 .header-title {
-    font-size: 24px;
+    font-size: 23px;
     color: #fff;
 }
 
