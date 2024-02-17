@@ -18,10 +18,22 @@ body {
   }
 
 .header {
-    margin-bottom: 85px;
-    border: 5px solid rgb(210, 14, 112);
-    font-family: baskerville, serif; 
+   margin-top: 20px;
+    border: 5px solid rgb(210, 14, 112); 
 }
+
+.header-title {
+    font-size: 23px;
+    color: #7d4310;
+    font-family: 'baskerville', serif;
+}
+
+.instructions {
+    font-size: 23px;
+    color: #7d4310;
+    font-family: 'baskerville', serif;
+}
+
 
 #timer {
     width: 100px;
@@ -52,44 +64,40 @@ body {
     font-weight: 700;
     text-align: center;
     padding: 16px 14px 18px;
-    color: rgb(244, 191, 218);
-    box-shadow: inset 0 0 0 2px #7a007a;
+    color: #7d4310;
+    box-shadow: inset 0 0 0 2px #7d4310;
     background-color: transparent;
     height: 48px;
 }
 
 #restart:hover { 
     color: #fff;
-    background-color: #f0bcf0;
+    background-color: #9e6f46;
+    font-family: palation, serif;
 }
 
   
 
-.header-title {
-    font-size: 23px;
-    color: #fff;
-}
-
 img {
-    width: 125px;
-    height: 125px;
+    width: 325px;
+    height: 325px;
 }
 
 
 /* STYLE */
 
 .memory-game {
-    width: 400px; /* 1.1 aqui se supone que deberia de controlar el overall size de la imagen*/
-    height: 400px; /* 1.2 */
-    display: flex; /* 1.3 junto con esta otra parte de codigo*/
+    width: 680px; 
+    height: 450px; 
+    display: flex; 
     flex-wrap: wrap;
     border: 10px solid limegreen;
     perspective: 1000px;
 }
 
 .memory-card {
-    width: 125px;
-    height: 125px;
+    width: 215px;
+    height: 215px;
     border: 5px solid rgb(210, 14, 112);
     transform: scale(1); /* reactive click */
     transform-style: preserve-3d;
